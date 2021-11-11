@@ -31,3 +31,10 @@ misc functions:
 - `color(r, g, b)`
 - `color(r, g, b, a)`
 - `vec3_t(x, y, z)`
+
+small example:
+```
+def on_gui() {
+	draw_rect( 10, 10, 50, 50, color( 255, 0, 0, 255 ) );
+}
+```
